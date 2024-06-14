@@ -37,14 +37,14 @@ class Car {
 
 void main() {
   // Create three Car objects with different brands, models, and years
-  Car car1 = Car("Toyota", "Camry", 2015, 50000);
-  Car car2 = Car("Honda", "Civic", 2018, 30000);
-  Car car3 = Car("Ford", "Mustang", 2020, 10000);
+  Car car1 = Car("BMW", "X1", 2016, 8);
+  Car car2 = Car("Honda", "Civic", 2018, 6);
+  Car car3 = Car("MG", "MG 4 Electric", 2020, 4);
 
   // Drive each car a different number of miles
-  car1.drive(150);
-  car2.drive(200);
-  car3.drive(300);
+  car1.drive(4000);
+  car2.drive(4700);
+  car3.drive(5200);
 
   // Print details for each car
   List<Car> cars = [car1, car2, car3];
